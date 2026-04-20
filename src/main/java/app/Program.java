@@ -11,3 +11,18 @@ public class Program {
         view.setVisible(true);
     }
 }
+/*
+package app;
+
+import data.Persistencia;
+import java.util.InvalidPropertiesFormatException;
+import views.AltaVehiculo;
+
+public class Program {
+    public static void main(String[] args) throws IllegalArgumentException, InvalidPropertiesFormatException {
+        Persistencia.inicializar();
+        AltaVehiculo view = new AltaVehiculo(null);
+        view.setVisible(true);
+    }
+}
+*/
