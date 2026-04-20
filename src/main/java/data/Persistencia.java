@@ -55,4 +55,12 @@ public class Persistencia {
         inicializarSucursales();
         inicializarVehiculos();
     }
+    public static ArrayList<Sucursal> getSucursales() {
+        
+        return sucursales;
+    }
+
+    public static void agregarVehiculo(Vehiculo v) {
+        vehiculos.add(v);
+    }
 }
