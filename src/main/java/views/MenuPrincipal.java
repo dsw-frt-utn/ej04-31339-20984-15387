@@ -97,11 +97,11 @@ public class MenuPrincipal extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
        // Aqui Creo la instancia de la ventana de listar en la memoria
-        // ListarVehiculos ventanaListar = new ListarVehiculos();
+        ListarVehiculosView ventanaListar = new ListarVehiculosView();
         // Aqui le ordena a la ventana que se muestre físicamente en la pantalla
-        // ventanaListar.setVisible(true);
+            ventanaListar.setVisible(true);
         // Con esto cierro el menú principal para que no se amontonen las ventanas ( esto es opcional)
-        // this.dispose();
+        //    this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
@@ -112,13 +112,13 @@ public class MenuPrincipal extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
           // Aqui Creo la instancia de la ventana de alta en la memoria
-     //   AltaVehiculo ventanaAlta = new AltaVehiculo(); 
+        AltaVehiculo ventanaAlta = new AltaVehiculo(); 
 
         // Aqui le ordena a la ventana que se muestre físicamente en la pantalla
-     //   ventanaAlta.setVisible(true); 
+        ventanaAlta.setVisible(true); 
 
         // Con esto cierro el menú principal para que no se amontonen las ventanas ( esto es opcional)
-     //   this.dispose();
+       // this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
