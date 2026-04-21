@@ -34,10 +34,10 @@ public class Persistencia {
         VehiculoCombustible v3 = new VehiculoCombustible("AC789JK", new Marca("Iveco","Italia"), "Daily", 2023, 1200, s1, 8, 1.5);
         VehiculoCombustible v4 = new VehiculoCombustible("AD321LM", new Marca("Mercedes","Alemania"), "Sprinter", 2020, 1200, s2, 7, 1);
         
-        vehiculos.add(v1);
-        vehiculos.add(v2);
-        vehiculos.add(v3);
-        vehiculos.add(v4);
+        //vehiculos.add(v1);
+        //vehiculos.add(v2);
+        //vehiculos.add(v3);
+        //vehiculos.add(v4);
     }
     
     public static ArrayList<Vehiculo> getVehiculos(){
